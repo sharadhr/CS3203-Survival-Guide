@@ -6,7 +6,7 @@ The project is a static program analyser (hasn't changed in quite a while).
 
 Semi-TL;DR of the module follows in the paragraphs below. This information is public, so I have no qualms in sharing *exactly* what the module entails; pay it forward is my motto. I hope it helps.
 
-You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#2-source-language-simple)) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#4-query-language-pql)) and associated grammar rules. Both (as well as the rest of the module details) may be found in [this GitHub page](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements).
+You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#2-source-language-simple)) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#4-query-language-pql)) and associated grammar rules. Both (as well as the rest of the module details) may be found in [this GitHub page](https://github.com/nus-cs3203/project-wiki/wiki).
 
 You are to parse and extract queryable information from source code written in SIMPLE, and store it in some database, which may then be polled with queries written in PQL. Some examples include,
 
