@@ -6,7 +6,7 @@ The project is a static program analyser (hasn't changed in quite a while).
 
 Semi-TL;DR of the module follows in the paragraphs below. This information is public, so I have no qualms in sharing *exactly* what the module entails; pay it forward is my motto. I hope it helps.
 
-You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#2-source-language-simple)) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/nus-cs3203/project-wiki/wiki/Full-(Basic-and-Advanced)-SPA-requirements#4-query-language-pql)) and associated grammar rules. Both (as well as the rest of the module details) may be found in [this GitHub page](https://github.com/nus-cs3203/project-wiki/wiki).
+You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/sharadhr/project-wiki/wiki/Basic-SPA-SIMPLE-Programming-Language) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/sharadhr/project-wiki/wiki/Basic-SPA-Program-Query-Language) and associated grammar rules. Both (as well as the rest of the module details) may be found in [this GitHub page](https://github.com/sharadhr/project-wiki/wiki).
 
 You are to parse and extract queryable information from source code written in SIMPLE, and store it in some database, which may then be polled with queries written in PQL. Some examples include,
 
@@ -32,7 +32,7 @@ The project may be divided into three (somewhat) clear segments:
 - actually *implementing* the API and the database to store information from above, and to return information for polled queries from below (called the **Program Knowledge-base**, or **PKB** for short);
 - parsing the query language and determining *which* information is asked for in the database, and returning the information in a human-readable manner (collectively called the **Program Query Language parser**, or **PQL parser**).
 
-These three groupings are also sane sub-groups for your group of 6 to form (you can also do things differently; one guy to write test cases, etc).
+These three groupings are also sane sub-groups for your group of 6 to form (you can also do things differently; one guy to write test cases, one guy to write an interface for both SIMPLE/PQL parsers to agree to, etc).
 Agreeing on a clear API from your **Front-end** to the **PKB**, and from the **PQL Parser** to the **PKB** will make your life very easy.
 
 Below are some key words to research before you start the module:
@@ -47,7 +47,7 @@ Below are some key words to research before you start the module:
 - control-flow graphs
 
 You will certainly need to write comprehensive test cases.
-As an example of a *system test*, you will have to cough up a full program in SIMPLE, eye-power the relationships and information from the source code you have written, and you will have to have *ALL* the relationships in code/text again, and see if your entire system works.
+As an example of a *system test*, you will have to cough up a full program in SIMPLE, eyeball the relationships and information from the source code you have written, which you will have to reproduce in *ALL* your code/text again, and see if your entire system works.
 This is a good exercise in test-case writing, since your system might actually be *already* correct, and emit information/relationships you didn't account for in test cases.
 
 This concludes the *programming* part of the module.
@@ -58,7 +58,7 @@ These are *optional* (ironically enough), and for some reason, the module focus 
 
 Lecture attendance is *compulsory* (honestly a bit annoying, as there's nothing new taught after weeks 6-7, at least nothing that can't be read from the GitHub above), as there are impromptu questions thrown to random groups in the lecture, and marks are deducted for non-attendance.
 
-There are two written exams (may have changed from last year, due to the remote nature of the module), which are (once again) mostly concerned with program analysis/parsing, various PQL queries given a sample source code in SIMPLE, etc etc.
+There are two written exams (may have changed from AY20/21, due to the remote nature of the module then), which are (once again) mostly concerned with program analysis/parsing, various PQL queries given a sample source code in SIMPLE, etc etc.
 
 There are *three* submission iterations, roughly set in the middle of recess week/week 7, week 9/10, and week 13, respectively.
 Your group will progressively build up the project.
