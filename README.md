@@ -6,7 +6,7 @@ The project is a static program analyser (hasn't changed in quite a while).
 
 Semi-TL;DR of the module follows in the paragraphs below. This information is public, so I have no qualms in sharing *exactly* what the module entails; pay it forward is my motto. I hope it helps.
 
-You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/sharadhr/project-wiki/wiki/Basic-SPA-SIMPLE-Programming-Language) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/sharadhr/project-wiki/wiki/Basic-SPA-Program-Query-Language) and associated grammar rules. Both (as well as the rest of the module details) may be found in [this GitHub page](https://github.com/sharadhr/project-wiki/wiki).
+You are given a [toy language](http://catb.org/~esr/jargon/html/T/toy-language.html) (named [SIMPLE](https://github.com/sharadhr/CS3203-Survival-Guide/wiki/Basic-SPA-SIMPLE-Programming-Language) and the associated grammar rules, as well as a query language (named [PQL](https://github.com/CS3203-Survival-Guide/project-wiki/wiki/Basic-SPA-Program-Query-Language) and associated grammar rules. Both (as well as the rest of the module details) may be found in [the Wiki tab of this GitHub](https://github.com/sharadhr/CS3203-Survival-Guide/wiki).
 
 You are to parse and extract queryable information from source code written in SIMPLE, and store it in some database, which may then be polled with queries written in PQL. Some examples include,
 
